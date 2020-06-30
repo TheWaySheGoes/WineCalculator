@@ -39,13 +39,10 @@ function calcYeast(){
 }
 
 function updateValues(){
-	water_value.text(water.val());
-	sugar_value.text(sugar.val());
-	yeast_value.text(yeast.val());
+	water_value.text(water.val()/1000);
+	sugar_value.text(sugar.val()/1000);
+	yeast_value.text(yeast.val()/1000);
 	
-	water_value_big.text(water.val()/1000);
-	sugar_value_big.text(sugar.val()/1000);
-	yeast_value_big.text(yeast.val()/1000);
 	
 	
 	
