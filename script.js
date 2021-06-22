@@ -14,25 +14,25 @@ var yeast_value_big = $("#Yeast_value_big");
 
 function calcWater() {
 	
-	sugar.val(water.val()*0.3125);
+	sugar.val(water.val()*0.25);
 	
-	yeast.val(water.val()*0.0125);
+	yeast.val(water.val()*0.025);
 	
 	updateValues();
 }
 
 function calcSugar(){
 	
-	water.val(sugar.val()*3.2);
+	water.val(sugar.val()*4.0);
 	
-	yeast.val(sugar.val()*0.04);
+	yeast.val(sugar.val()*0.10);
 	
 	updateValues();
 }
 
 function calcYeast(){
-	water.val(yeast.val()*80);
-	sugar.val(yeast.val()*25);
+	water.val(yeast.val()*10);
+	sugar.val(yeast.val()*40);
 	
 	
 	updateValues();
